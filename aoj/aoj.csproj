@@ -38,4 +38,8 @@
     <Compile Include="volume0\_0059.cs" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Folder Include="volume1\" />
+    <Folder Include="volume2\" />
+  </ItemGroup>
 </Project>
