@@ -1,9 +1,7 @@
-﻿using System;
-
-namespace aoj {
+﻿namespace aoj {
 	public class Program {
 		public static void Main() {
-			var program = new _0059();
+			var program = new _0060();
 			program.Run();
 		}
 	}
