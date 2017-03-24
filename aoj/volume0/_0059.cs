@@ -2,11 +2,8 @@
 using System.Linq;
 
 namespace aoj {
-	public class _0059 {
-		public _0059() {
-		}
-
-		public void Run() {
+	public class _0059 : Problem {
+		public override void Run() {
 			string str;
 			double[] vals;
 			while((str = Console.ReadLine()) != null) {

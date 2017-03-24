@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace aoj {
 	struct Point {
@@ -13,17 +10,14 @@ namespace aoj {
 			this.y = y;
 		}
 	}
-	class _0067 {
-		public _0067() {
-		}
-
+	class _0067 : Problem {
 		private bool InRange(int val) {
 			return 0 <= val && val < 12;
 		}
 
-		public void Run() {
+		public override void Run() {
 			var s = new Stack<Point>();
-			var map = new int[12,12];
+			var map = new int[12, 12];
 			var dx = new int[] {-1, 0, 1, 0};
 			var dy = new int[] {0, -1, 0, 1};
 			string str;

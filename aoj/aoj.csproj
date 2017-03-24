@@ -34,7 +34,9 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Problem.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Tester.cs" />
     <Compile Include="volume0\_0059.cs" />
     <Compile Include="volume0\_0060.cs" />
     <Compile Include="volume0\_0061.cs" />
@@ -49,5 +51,7 @@
     <Folder Include="volume1\" />
     <Folder Include="volume2\" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="testfiles\volume0\0067.txt" />
+  </ItemGroup>
 </Project>

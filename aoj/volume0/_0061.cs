@@ -3,11 +3,8 @@ using System.Linq;
 using System.Collections.Generic;
 
 namespace aoj {
-	public class _0061 {
-		public _0061() {
-		}
-
-		public void Run() {
+	public class _0061 : Problem {
+		public override void Run() {
 			Dictionary<int, int> data, rank;
 			List<int> points;
 			data = new Dictionary<int, int>();

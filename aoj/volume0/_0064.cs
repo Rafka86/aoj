@@ -1,11 +1,8 @@
 ﻿using System;
 
 namespace aoj {
-	public class _0064 {
-		public _0064() {
-		}
-
-		public void Run() {
+	public class _0064 : Problem {
+		public override void Run() {
 			string str;
 			int r = 0;
 			while ((str = Console.ReadLine()) != null)

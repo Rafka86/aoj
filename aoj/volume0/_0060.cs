@@ -2,11 +2,8 @@
 using System.Linq;
 
 namespace aoj {
-	public class _0060 {
-		public _0060() {
-		}
-
-		public void Run() {
+	public class _0060 : Problem {
+		public override void Run() {
 			string str;
 			while((str = Console.ReadLine()) != null) {
 				var vs = str.Split().Take(3).Select(s => byte.Parse(s)).ToArray();

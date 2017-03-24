@@ -1,15 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace aoj {
-	public class _0062 {
-		public _0062() {
-		}
-
-		public void Run() {
+	public class _0062 : Problem {
+		public override void Run() {
 			string str;
 			while ((str = Console.ReadLine()) != null) {
 				var ns = str.Select(c=>int.Parse(c.ToString())).ToArray();
