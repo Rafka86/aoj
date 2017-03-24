@@ -43,6 +43,7 @@
     <Compile Include="volume0\_0064.cs" />
     <Compile Include="volume0\_0065.cs" />
     <Compile Include="volume0\_0066.cs" />
+    <Compile Include="volume0\_0067.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="volume1\" />
