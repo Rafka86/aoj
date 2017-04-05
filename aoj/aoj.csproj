@@ -37,6 +37,7 @@
     <Compile Include="utils\PointInt.cs" />
     <Compile Include="utils\Problem.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="utils\ProgramGenerator.cs" />
     <Compile Include="utils\Tester.cs" />
     <Compile Include="utils\Point.cs" />
     <Compile Include="volume0\_0059.cs" />
@@ -57,5 +58,8 @@
   <ItemGroup>
     <Content Include="testfiles\volume0\0067.txt" />
     <Content Include="testfiles\volume0\0068.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="submit.cs" />
   </ItemGroup>
 </Project>

@@ -10,7 +10,7 @@ namespace aoj {
 				target.Run();
 			}
 			SetIn(def);
-			Write("Press any key, pls.");
+			Write("Press any key pls.");
 			ReadLine();
 		}
 	}
