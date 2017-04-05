@@ -34,9 +34,11 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Problem.cs" />
+    <Compile Include="utils\PointInt.cs" />
+    <Compile Include="utils\Problem.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Tester.cs" />
+    <Compile Include="utils\Tester.cs" />
+    <Compile Include="utils\Point.cs" />
     <Compile Include="volume0\_0059.cs" />
     <Compile Include="volume0\_0060.cs" />
     <Compile Include="volume0\_0061.cs" />
@@ -46,6 +48,7 @@
     <Compile Include="volume0\_0065.cs" />
     <Compile Include="volume0\_0066.cs" />
     <Compile Include="volume0\_0067.cs" />
+    <Compile Include="volume0\_0068.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="volume1\" />
@@ -53,5 +56,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="testfiles\volume0\0067.txt" />
+    <Content Include="testfiles\volume0\0068.txt" />
   </ItemGroup>
 </Project>

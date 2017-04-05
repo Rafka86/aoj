@@ -1,7 +1,7 @@
 ﻿namespace aoj {
 	public class Program {
 		public static void Main() {
-			Tester.DoTest(new _0067(), @"../../testfiles/volume0/0067.txt");
+			Tester.DoTest(new _0068(), @"../../testfiles/volume0/0068.txt");
 		}
 	}
 }
