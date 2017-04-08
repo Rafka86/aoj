@@ -13,7 +13,7 @@ namespace aoj {
 				using (StreamReader sr = new StreamReader(main)) {
 					string line;
 					while((line = sr.ReadLine()) != null) {
-						if (line.Contains("namespace")) {
+						if (subs != null && line.Contains("namespace")) {
 							sw.WriteLine(line);
 							for (int i = 0; i < subs.Length; i++) {
 								using (StreamReader ssr = new StreamReader(subs[i])) {

@@ -1,8 +1,8 @@
 ﻿namespace aoj {
 	public class Program {
 		public static void Main() {
-			Tester.DoTest(new _0068(), @"../../testfiles/volume0/0068.txt");
-			ProgramGenerator.Generate(@"../../volume0/_0068.cs", @"../../utils/Point.cs");
+			Tester.DoTest(new _0069(), @"../../testfiles/volume0/0069.txt");
+			ProgramGenerator.Generate(@"../../volume0/_0069.cs", null);
 		}
 	}
 }

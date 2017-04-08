@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace aoj {
@@ -10,8 +10,8 @@ namespace aoj {
 			now = n; stage = s; line = l;
 		}
 	}
-	class _0069 {
-		public static void Main() {
+	class _0069 : Problem {
+		public override void Run() {
 			string str;
 			while ((str = Console.ReadLine()) != "0") {
 				var ln = int.Parse(str);
