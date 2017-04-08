@@ -1,8 +1,8 @@
-using System;
+﻿using System;
 using System.Linq;
 
 namespace aoj.volume0 {
-	class _0070 {
+	class _0070 : Problem {
 		private static void CreateMem(int[,] dp, int rank, int sum, bool[] mem) {
 			if (rank > 10) return;
 			for(int i = 0; i < 10; i++) {
@@ -13,7 +13,7 @@ namespace aoj.volume0 {
 				mem[i] = false;
 			}
 		}
-		public static void Main() {
+		public override void Run() {
 			var dp = new int[11,331];
 			CreateMem(dp, 1, 0, new bool[10]);
 			string str;
