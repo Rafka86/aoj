@@ -1,17 +1,9 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace aoj.volume0 {
-	struct PointInt {
-		private int _x, _y;
-		public PointInt(int x, int y) {
-			_x = x;
-			_y = y; }
-		public int x { get { return _x; } set { _x = value; } }
-		public int y { get { return _y; } set { _y = value; } }
-	}
-	class _0071 {
-		public static void Main() {
+	class _0071 : Problem {
+		public override void Run() {
 			var n = int.Parse(Console.ReadLine());
 			int[,] map = new int[8,8];
 			for (int i = 0; i < n; i++) {
