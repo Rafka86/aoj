@@ -1,9 +1,9 @@
 ﻿using System;
 
-namespace aoj {
-	public class _0072 {
-		public _0072() {
+namespace aoj.volume0 {
+	public class _0072 : Problem {
+		public override void Run() {
+			throw new NotImplementedException();
 		}
 	}
 }
-
