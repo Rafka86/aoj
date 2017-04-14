@@ -53,6 +53,7 @@
     <Compile Include="volume0\_0069.cs" />
     <Compile Include="volume0\_0070.cs" />
     <Compile Include="volume0\_0071.cs" />
+    <Compile Include="volume0\_0072.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="volume1\" />
@@ -67,5 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="submit.cs" />
+    <None Include="testfiles\volume0\0072.txt" />
   </ItemGroup>
 </Project>
